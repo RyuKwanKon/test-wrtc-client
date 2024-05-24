@@ -1,4 +1,4 @@
-# FROM node:21.7.3
+FROM node:21.7.3
 
 # RUN mkdir -p /usr/src/app
 # WORKDIR /usr/src/app
@@ -18,7 +18,7 @@
 # CMD ["npm", "start"]
 
 
-FROM node:alpine
+# FROM node:alpine
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
